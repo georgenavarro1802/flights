@@ -1,0 +1,846 @@
+[
+  {
+    "model": "air.country",
+    "pk": 1,
+    "fields": {
+      "name": "UNITED STATES",
+      "symbol": "US"
+    }
+  },
+  {
+    "model": "air.Country",
+    "pk": 2,
+    "fields": {
+      "name": "CUBA",
+      "symbol": "CU"
+    }
+  },
+  {
+    "model": "air.Country",
+    "pk": 3,
+    "fields": {
+      "name": "MEXICO",
+      "symbol": "MX"
+    }
+  },
+  {
+    "model": "air.Country",
+    "pk": 4,
+    "fields": {
+      "name": "PANAMA",
+      "symbol": "PA"
+    }
+  },
+  {
+    "model": "air.Country",
+    "pk": 5,
+    "fields": {
+      "name": "ECUADOR",
+      "symbol": "EC"
+    }
+  },
+  {
+    "model": "air.Country",
+    "pk": 6,
+    "fields": {
+      "name": "CANADA",
+      "symbol": "CA"
+    }
+  },
+  {
+    "model": "air.Country",
+    "pk": 7,
+    "fields": {
+      "name": "BRAZIL",
+      "symbol": "BR"
+    }
+  },
+  {
+    "model": "air.Country",
+    "pk": 8,
+    "fields": {
+      "name": "CHINA",
+      "symbol": "CH"
+    }
+  },
+  {
+    "model": "air.Country",
+    "pk": 9,
+    "fields": {
+      "name": "FRANCIA",
+      "symbol": "FR"
+    }
+  },
+  {
+    "model": "air.Country",
+    "pk": 10,
+    "fields": {
+      "name": "NIGERIA",
+      "symbol": "NG"
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 1,
+    "fields": {
+      "name": "FLORIDA",
+      "country": 1
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 2,
+    "fields": {
+      "name": "TEXAS",
+      "country": 1
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 3,
+    "fields": {
+      "name": "PENNSYLVANIA",
+      "country": 1
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 4,
+    "fields": {
+      "name": "HAVANA",
+      "country": 2
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 5,
+    "fields": {
+      "name": "LAS TUNAS",
+      "country": 2
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 6,
+    "fields": {
+      "name": "SANTIAGO DE CUBA",
+      "country": 2
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 7,
+    "fields": {
+      "name": "NUEVO LEON",
+      "country": 3
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 8,
+    "fields": {
+      "name": "JALISCO",
+      "country": 3
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 9,
+    "fields": {
+      "name": "MEXICO",
+      "country": 3
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 10,
+    "fields": {
+      "name": "PANAMA",
+      "country": 4
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 11,
+    "fields": {
+      "name": "VERAGUAS",
+      "country": 4
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 12,
+    "fields": {
+      "name": "PICHINCHA",
+      "country": 5
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 13,
+    "fields": {
+      "name": "GUAYAS",
+      "country": 5
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 14,
+    "fields": {
+      "name": "ALASKA",
+      "country": 6
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 15,
+    "fields": {
+      "name": "ONTARIO",
+      "country": 6
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 16,
+    "fields": {
+      "name": "BAHIA",
+      "country": 7
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 17,
+    "fields": {
+      "name": "AMAZONAS",
+      "country": 7
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 18,
+    "fields": {
+      "name": "XINJIANG",
+      "country": 8
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 19,
+    "fields": {
+      "name": "SICHUAN",
+      "country": 8
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 20,
+    "fields": {
+      "name": "NORMANDY",
+      "country": 9
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 21,
+    "fields": {
+      "name": "PROVENCE",
+      "country": 9
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 22,
+    "fields": {
+      "name": "NIGER",
+      "country": 10
+    }
+  },
+  {
+    "model": "air.state",
+    "pk": 23,
+    "fields": {
+      "name": "TARABA",
+      "country": 10
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 1,
+    "fields": {
+      "name": "MIAMI",
+      "state": 1
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 2,
+    "fields": {
+      "name": "DALLAS",
+      "state": 2
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 3,
+    "fields": {
+      "name": "PITTSBURGH",
+      "state": 3
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 4,
+    "fields": {
+      "name": "MARIANAO",
+      "state": 4
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 5,
+    "fields": {
+      "name": "PUERTO PADRE",
+      "state": 5
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 6,
+    "fields": {
+      "name": "SANTIAGO",
+      "state": 6
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 7,
+    "fields": {
+      "name": "MONTERREY",
+      "state": 7
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 8,
+    "fields": {
+      "name": "ACAPULCO",
+      "state": 8
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 9,
+    "fields": {
+      "name": "MEXICO DF",
+      "state": 9
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 10,
+    "fields": {
+      "name": "PANAMA CITY",
+      "state": 10
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 11,
+    "fields": {
+      "name": "AGUADULCE",
+      "state": 11
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 12,
+    "fields": {
+      "name": "QUITO",
+      "state": 12
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 13,
+    "fields": {
+      "name": "GUAYAS",
+      "state": 13
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 14,
+    "fields": {
+      "name": "FAIRBANKS",
+      "state": 14
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 15,
+    "fields": {
+      "name": "OTTAWA",
+      "state": 15
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 16,
+    "fields": {
+      "name": "BRASILIA",
+      "state": 16
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 17,
+    "fields": {
+      "name": "CONCORDIA",
+      "state": 17
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 18,
+    "fields": {
+      "name": "KAMAL",
+      "state": 18
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 19,
+    "fields": {
+      "name": "LESHAN",
+      "state": 19
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 20,
+    "fields": {
+      "name": "ROVEN",
+      "state": 20
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 21,
+    "fields": {
+      "name": "TOULON",
+      "state": 21
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 22,
+    "fields": {
+      "name": "ZINDER",
+      "state": 22
+    }
+  },
+  {
+    "model": "air.city",
+    "pk": 23,
+    "fields": {
+      "name": "JALINGO",
+      "state": 23
+    }
+  },
+  {
+    "model": "air.airline",
+    "pk": 1,
+    "fields": {
+      "name": "AMERICAN AIRLINES",
+      "country": 1
+    }
+  },
+  {
+    "model": "air.airline",
+    "pk": 2,
+    "fields": {
+      "name": "DELTA AIR",
+      "country": 1
+    }
+  },
+  {
+    "model": "air.airline",
+    "pk": 3,
+    "fields": {
+      "name": "SOUTHWEST",
+      "country": 1
+    }
+  },
+  {
+    "model": "air.airline",
+    "pk": 4,
+    "fields": {
+      "name": "JET BLUE",
+      "country": 1
+    }
+  },
+  {
+    "model": "air.airline",
+    "pk": 5,
+    "fields": {
+      "name": "CUBANA",
+      "country": 2
+    }
+  },
+  {
+    "model": "air.airline",
+    "pk": 6,
+    "fields": {
+      "name": "AERO CARIBBEAN",
+      "country": 2
+    }
+  },
+  {
+    "model": "air.airline",
+    "pk": 7,
+    "fields": {
+      "name": "AEROMEXICO",
+      "country": 3
+    }
+  },
+  {
+    "model": "air.airline",
+    "pk": 8,
+    "fields": {
+      "name": "COPA AIRLINES",
+      "country": 4
+    }
+  },
+  {
+    "model": "air.airline",
+    "pk": 9,
+    "fields": {
+      "name": "TAME",
+      "country": 5
+    }
+  },
+  {
+    "model": "air.airline",
+    "pk": 10,
+    "fields": {
+      "name": "AIR CANADA",
+      "country": 6
+    }
+  },
+  {
+    "model": "air.airline",
+    "pk": 11,
+    "fields": {
+      "name": "AZUL BRASILIAN",
+      "country": 7
+    }
+  },
+  {
+    "model": "air.airline",
+    "pk": 12,
+    "fields": {
+      "name": "AIR CHINA",
+      "country": 8
+    }
+  },
+  {
+    "model": "air.airline",
+    "pk": 13,
+    "fields": {
+      "name": "AIR FRANCE",
+      "country": 9
+    }
+  },
+  {
+    "model": "air.airline",
+    "pk": 14,
+    "fields": {
+      "name": "AIR PEACE",
+      "country": 10
+    }
+  },
+  {
+    "model": "air.airplane",
+    "pk": 1,
+    "fields": {
+      "brand": "BOEING",
+      "model": "747",
+      "passengers": 400,
+      "fuel_capacity": 1000,
+      "fuel_consumption": 10
+
+    }
+  },
+  {
+    "model": "air.airplane",
+    "pk": 2,
+    "fields": {
+      "brand": "BOEING",
+      "model": "777",
+      "passengers": 300,
+      "fuel_capacity": 1000,
+      "fuel_consumption": 10
+
+    }
+  },
+  {
+    "model": "air.airplane",
+    "pk": 3,
+    "fields": {
+      "brand": "AIRBUS",
+      "model": "A320",
+      "passengers": 200,
+      "fuel_capacity": 800,
+      "fuel_consumption": 10
+
+    }
+  },
+  {
+    "model": "air.airplane",
+    "pk": 4,
+    "fields": {
+      "brand": "AIRBUS",
+      "model": "A340",
+      "passengers": 350,
+      "fuel_capacity": 900,
+      "fuel_consumption": 10
+
+    }
+  },
+  {
+    "model": "air.airplane",
+    "pk": 5,
+    "fields": {
+      "brand": "BOEING",
+      "model": "767",
+      "passengers": 300,
+      "fuel_capacity": 750,
+      "fuel_consumption": 10
+
+    }
+  },
+  {
+    "model": "air.airplane",
+    "pk": 6,
+    "fields": {
+      "brand": "AIRBUS",
+      "model": "A330",
+      "passengers": 330,
+      "fuel_capacity": 800,
+      "fuel_consumption": 10
+
+    }
+  },
+  {
+    "model": "air.airplane",
+    "pk": 7,
+    "fields": {
+      "brand": "BOEING",
+      "model": "757",
+      "passengers": 250,
+      "fuel_capacity": 700,
+      "fuel_consumption": 10
+
+    }
+  },
+  {
+    "model": "air.airplane",
+    "pk": 8,
+    "fields": {
+      "brand": "BOEING",
+      "model": "737",
+      "passengers": 150,
+      "fuel_capacity": 650,
+      "fuel_consumption": 10
+
+    }
+  },
+  {
+    "model": "air.airport",
+    "pk": 1,
+    "fields": {
+      "name": "Miami Airport",
+      "symbol": "MIA",
+      "city": 1,
+      "lat": 25.795836,
+      "lng": -80.286928
+    }
+  },
+  {
+    "model": "air.airport",
+    "pk": 2,
+    "fields": {
+      "name": "Dallas Fort Worth Airport",
+      "symbol": "DAL",
+      "city": 2,
+      "lat": 32.899836,
+      "lng": -97.040335
+    }
+  },
+  {
+    "model": "air.airport",
+    "pk": 3,
+    "fields": {
+      "name": "Pittsburgh Airport",
+      "symbol": "PIT",
+      "city": 3,
+      "lat": 40.495829,
+      "lng": -80.241397
+    }
+  },
+  {
+    "model": "air.airport",
+    "pk": 4,
+    "fields": {
+      "name": "Havana Airport",
+      "symbol": "HAV",
+      "city": 4,
+      "lat": 22.991523,
+      "lng": -82.410182
+    }
+  },
+  {
+    "model": "air.airport",
+    "pk": 5,
+    "fields": {
+      "name": "Monterrey Airport",
+      "symbol": "MTY",
+      "city": 7,
+      "lat": 25.777818,
+      "lng": -100.108125
+    }
+  },
+  {
+    "model": "air.airport",
+    "pk": 6,
+    "fields": {
+      "name": "Acapulco Airport",
+      "symbol": "ACA",
+      "city": 8,
+      "lat": 16.762985,
+      "lng": -99.761901
+    }
+  },
+  {
+    "model": "air.airport",
+    "pk": 7,
+    "fields": {
+      "name": "Mexico DF Airport",
+      "symbol": "MEX",
+      "city": 9,
+      "lat": 19.436137,
+      "lng": -99.071898
+    }
+  },
+  {
+    "model": "air.airport",
+    "pk": 8,
+    "fields": {
+      "name": "Panama Airport",
+      "symbol": "PAN",
+      "city": 10,
+      "lat": 9.066945,
+      "lng": -79.386746
+    }
+  },
+  {
+    "model": "air.airport",
+    "pk": 9,
+    "fields": {
+      "name": "Quito Airport",
+      "symbol": "UIO",
+      "city": 12,
+      "lat": -0.121216,
+      "lng": -78.358601
+    }
+  },
+  {
+    "model": "air.airport",
+    "pk": 10,
+    "fields": {
+      "name": "Guayaquil Airport",
+      "symbol": "GYE",
+      "city": 13,
+      "lat": -2.148099,
+      "lng": -79.884175
+    }
+  },
+  {
+    "model": "air.airport",
+    "pk": 11,
+    "fields": {
+      "name": "Ottawa Airport",
+      "symbol": "OTW",
+      "city": 15,
+      "lat": 45.319204,
+      "lng": -75.669122
+    }
+  },
+  {
+    "model": "air.airport",
+    "pk": 12,
+    "fields": {
+      "name": "Brasilia Airport",
+      "symbol": "BRA",
+      "city": 16,
+      "lat": -15.869964,
+      "lng": -47.917203
+    }
+  },
+  {
+    "model": "air.airport",
+    "pk": 13,
+    "fields": {
+      "name": "Leshan Airport",
+      "symbol": "LES",
+      "city": 19,
+      "lat": 30.567456,
+      "lng": 103.949315
+    }
+  },
+  {
+    "model": "air.airport",
+    "pk": 14,
+    "fields": {
+      "name": "Normandy Airport",
+      "symbol": "NOR",
+      "city": 20,
+      "lat": 49.178942,
+      "lng": -0.411581
+    }
+  },
+  {
+    "model": "air.airport",
+    "pk": 15,
+    "fields": {
+      "name": "Toulon Airport",
+      "symbol": "TOU",
+      "city": 21,
+      "lat": 43.094599,
+      "lng": 6.150799
+    }
+  },
+  {
+    "model": "air.airport",
+    "pk": 16,
+    "fields": {
+      "name": "Zinder Airport",
+      "symbol": "ZIN",
+      "city": 22,
+      "lat": 13.779267,
+      "lng": 8.983311
+    }
+  },
+  {
+    "model": "air.airport",
+    "pk": 17,
+    "fields": {
+      "name": "Fairbanks Airport",
+      "symbol": "FAB",
+      "city": 14,
+      "lat": 64.816398,
+      "lng": -147.863495
+    }
+  }
+
+]
