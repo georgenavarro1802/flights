@@ -369,6 +369,15 @@
                 onpaused = true;
             });
 
+            $("#btnstop").click(function() {
+{#                $("#btnstop").attr("disabled","disabled");#}
+{#                $("#btnplay").removeAttr("disabled");#}
+{#                interval = window.clearInterval(interval);#}
+                onpaused = false;
+                location.reload();
+            });
+
+
             $("#btnplay").click(function() {
                 $("#btnplay").attr("disabled","disabled");
                 $("#btnstop").removeAttr("disabled");
@@ -402,14 +411,6 @@
                         interval = setInterval(incrementIndex, 300);
                     }, "json");
                 }
-                return false;
-            });
-
-            $("#btnstop").click(function() {
-                $("#btnstop").attr("disabled","disabled");
-                $("#btnplay").removeAttr("disabled");
-                interval = window.clearInterval(interval);
-                onpaused = false;
             });
 
         });
@@ -428,9 +429,9 @@
         <div class="span4">
             <h4>Simulation Statistics</h4>
             <div class="well">
-                <a href="#" class="btn btn-success" id="btnplay"><i class="icon-play icon-white"></i></a>
-                <a href="#" class="btn" id="btnpause" disabled><i class="icon-pause"></i></a>
-                <a href="#" class="btn btn-danger" id="btnstop" disabled><i class="icon-stop icon-white"></i></a>
+                <a href="#" class="btn btn-success" id="btnplay" title="Begin"><i class="icon-play icon-white"></i></a>
+                <a href="#" class="btn btn-info" id="btnpause" disabled title="Pause"><i class="icon-pause icon-white"></i></a>
+                <a href="#" class="btn btn-danger" id="btnstop" disabled title="Reload"><i class="icon-refresh icon-white"></i></a>
                 <span id="currenttime" class="bigger">0:00</span>
             </div>
             <div class="row-fluid">
