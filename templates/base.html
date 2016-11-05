@@ -9,13 +9,13 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/slider.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}" />
 
-    <script src="/static/js/jquery.min.js"></script>
-    <script src="/static/js/bootstrap.min.js"></script>
-    <script src="/static/js/bootstrap-slider.js"></script>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap-slider.js' %}"></script>
 
     <script src="https://www.google.com/jsapi"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
-    <script src="/static/js/markers.js"></script>
+    <script src="{% static 'js/markers.js' %}"></script>
 
     <script>
 
@@ -376,7 +376,7 @@
                 if (onpaused) {
                     onpaused = false;
                     index = pausedIndex;
-                    interval = setInterval(incrementIndex, 500);
+                    interval = setInterval(incrementIndex, 300);
                 } else {
                     onpaused = false;
                     index = 0;
@@ -399,9 +399,10 @@
 
                     $.post("/simulation",{}, function(data) {
                         simulation = data;
-                        interval = setInterval(incrementIndex, 500);
+                        interval = setInterval(incrementIndex, 300);
                     }, "json");
                 }
+                return false;
             });
 
             $("#btnstop").click(function() {
