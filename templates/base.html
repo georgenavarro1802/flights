@@ -85,7 +85,7 @@
 
             // set map options to initialize
             var mapOptions = {
-                zoom: 4,
+                zoom: 3,
                 center: new google.maps.LatLng(25.783335, -80.231169),
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
@@ -117,7 +117,7 @@
                 for (var i in markers) {
                     var marker = markers[i];
                     var flight = marker.flight;
-                    list.push("<li>"+airlines[flight.airline]+" "+flight.name+"</li>");
+                    list.push("<li>"+airlines[flight.airline]+" "+flight.airplane+"</li>");
                 }
                 $("#concurrentplanes").html("<ol>"+list.join("")+"</ol>");
             };
